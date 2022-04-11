@@ -13,7 +13,7 @@
 .nav {
     background-color: #add8e6;
     min-height: 70px;
-    padding: 10px 300px;
+    padding: 10px 350px;;
 }
 
 .menu {
@@ -53,12 +53,56 @@
 .slogan {
     background-color: #00008b;
     min-height: 350px;
-    padding: 40px 400px;
+    padding: 40px 350px;
 }
 
 .firsttext {
     background-color: #ee82ee;
     border: dashed 1px black;
     min-height: 350px;
+    width: 80%;
+}
+
+.paragrafo {
+    min-height: 450px;
+    padding: 40px 350px;
+}
+
+.greyparagrafo {
+    display: flex;
+    flex-direction: row-reverse;
+    min-height: 450px;
+    padding: 40px 350px;
+    background-color: #d3d3d3;
+}
+
+.immagine {
+    background-color: #1e90ff;
+    border: dashed 1px black;
+    min-height: 350px;
+    width: 60%;
+}
+
+.testo {
+    background-color: #ffc0cb;
+    border: dashed 1px black;
+    min-height: 350px;
+    width: 40%;
+}
+
+.bigparagrafo {
+    background-color: #d3d3d3;
+    min-height: 800px;
+    padding: 40px 350px;
+}
+
+.bigtesto {
+    min-height: 700px;
+    background-color: #228b22;
+    border: dashed 1px black;
     width: 100%;
+}
+
+hr {
+    color: white;
 }
