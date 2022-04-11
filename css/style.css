@@ -138,7 +138,28 @@ footer {
     width: 100%;
 }
 
+
+hr {
+    color: white;
+    margin: 15px 0;
+}
+
 .footlogo {
+    display: flex;
+    justify-content: space-between;
     min-height: 50px;
     background-color: #7fffd4;
+    padding: 12px 0;
+}
+
+.logo2 {
+    background-color: #ffb6c1;
+    border: dashed 1px black;
+    padding: 2px;
+}
+
+.button2 {
+    background-color: #ffb6c1;
+    border: dashed 1px black;
+    padding: 2px;
 }
